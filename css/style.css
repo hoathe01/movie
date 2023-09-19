@@ -1566,6 +1566,7 @@ label {
 .movie-item-row .movie-poster {
     position: relative;
 }
+
 .movie-item-row .movie-poster::before,
 .movie-item-three .movie-poster::before {
     content: "";
@@ -1823,14 +1824,17 @@ label {
     position: relative;
 }
 .movie-details-img .popup-video {
-
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
     z-index: 1;
 }
+.movie-details-img .popup-video img{
+	width: 100%;
+}
 .movie-details-img img {
+	width: 303px;
     border-radius: 5px;
 }
 .movie-details-content {
