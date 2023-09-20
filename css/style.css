@@ -1729,6 +1729,7 @@ label {
     flex-wrap: wrap;
 }
 .pagination-wrap ul li a {
+	border-radius: 5px;
     display: block;
     font-size: 14px;
     color: #c2c2c2;
@@ -1738,6 +1739,7 @@ label {
 }
 .pagination-wrap ul li.active a,
 .pagination-wrap ul li a:hover {
+	border-radius: 10px;
     color: #ffffff;
     border-color: #f91362;
     background: linear-gradient(60deg,#ff8e44,#f91362,#35126a);

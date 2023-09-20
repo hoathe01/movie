@@ -35,7 +35,7 @@ body {
 }
 
 .website-logo .logo {
-    background-image: url("../img/logo/logo.png");
+    background-image: url("logo.gif");
 }
 
 .website-logo .logo img {
@@ -47,7 +47,7 @@ body {
 }
 
 .website-logo-inside .logo {
-    background-image: url("../img/logo/logo.png");
+    background-image: url("logo.gif");
 }
 
 .website-logo-inside .logo img {
@@ -560,10 +560,10 @@ body {
     }
 
     .website-logo .logo {
-        background-image: url("../img/logo/logo.png");
+        background-image: url("logo.gif");
     }
 
     .form-body.without-side .website-logo .logo {
-        background-image: url("../img/logo/logo.png");
+        background-image: url("logo.gif");
     }
 }
